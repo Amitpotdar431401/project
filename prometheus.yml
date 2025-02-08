@@ -1,0 +1,10 @@
+global:
+  scrape_interval: 5s  # 5 second me data collect karega
+
+scrape_configs:
+  - job_name: "weather_hpc"
+    static_configs:
+      - targets:
+          - "192.168.82.222:9100"  # Compute Node 1
+          - "192.168.82.218:9100"  # Compute Node 2
+          - "192.168.82.17:9100"  # Compute Node 3
