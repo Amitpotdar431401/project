@@ -4,7 +4,7 @@ import time
 import os
 import sys
 
-API_KEY = "9f362f42a89267dbf2f1dfc219ac893a"  # OpenWeather API Key yahan daal
+API_KEY = "9f362f42a89267dbf2f1dfc219ac893a"  
 
 # Function to fetch weather data
 def fetch_weather(city, state):
