@@ -1,0 +1,5 @@
+trigger:
+- main
+
+steps:
+- script: echo "Hello !"
